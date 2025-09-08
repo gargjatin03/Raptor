@@ -9,7 +9,7 @@ function App() {
   // Login via username or email
   const handleLogin = (emailOrUsername, unusedUsername, password) => {
     const user = users.find(
-      (u) =>
+      (u) => 
         (u.email === emailOrUsername || u.username === emailOrUsername) &&
         u.password === password
     );
